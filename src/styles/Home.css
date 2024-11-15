@@ -1,0 +1,17 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3f4f6;
+  gap: 50px;
+}
+
+.home-page .header-name {
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.home-page .description {
+  font-size: 20px;
+}

@@ -1,0 +1,68 @@
+.nav-container {
+  background-color: #c5050c;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 1000;
+}
+
+.nav-container a {
+  transition: opacity 0.2s;
+}
+
+.nav-container .links:hover {
+  opacity: 0.8;
+}
+
+.logo-container,
+.user-icon-container {
+  margin: 0px 30px;
+  flex: 0 0 auto;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.user-icon-container {
+  transition: opacity 0.2s;
+}
+
+.logo-container .logo-icon {
+  height: 40px;
+  background-color: none;
+}
+
+.user-icon-container:hover {
+  opacity: 0.8;
+}
+
+.nav-container .user-icon {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-left {
+  gap: 60px;
+}
+
+.navbar-left,
+.navbar-right div {
+  font-weight: 700;
+}
+
+.nav-link {
+  margin: 0 20px;
+}

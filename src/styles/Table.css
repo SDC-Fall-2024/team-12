@@ -1,0 +1,23 @@
+.explore-page .table-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.explore-page .table-item,
+.table-header {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.table-item-click {
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.table-item-click:hover {
+  color: #c5050c;
+  text-decoration: underline;
+}

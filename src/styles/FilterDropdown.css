@@ -1,0 +1,40 @@
+.filter-by-subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.filter-input-container {
+  position: relative;
+}
+
+.filter-input {
+  padding: 5px;
+  margin-top: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.filter-dropdown-menu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+  width: 300px;
+  overflow: scroll;
+  max-height: 238px;
+}
+
+.filter-dropdown-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.filter-dropdown-item:hover {
+  color: white;
+  background-color: #c5050c;
+}
